@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-sync.yml
-name: A🔄自动同步🔄A
+name: A🔄自动同步🔄A新的哦
 on:
   schedule:
     - cron: '0 */1 * * *'
@@ -20,7 +20,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: 开始🔄自动同步🔄
+      - name: 开始🔄自动同步🔄新的哦
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
